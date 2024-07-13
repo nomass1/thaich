@@ -54,3 +54,13 @@ h1 {
   color: #bbb; /* Lighter text color */
   margin-bottom: 0;
 }
+
+/* Additional CSS for image size */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Center image */
+  border-radius: 12px; /* Apply border radius to image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow */
+}
