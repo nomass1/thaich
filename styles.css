@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.egg-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.egg-box {
+  padding: 15px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.egg-box h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #555;
+}
+
+.egg-box p {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #777;
+}
