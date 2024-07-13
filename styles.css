@@ -1,56 +1,56 @@
 /* Reset and General Styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #333; /* Dark background color */
   margin: 0;
   padding: 0;
-  color: #333; /* Default text color */
+  color: #f0f0f0; /* Light text color */
 }
 
 .container {
   max-width: 800px;
   margin: 20px auto;
-  background-color: #fff;
+  background-color: #444; /* Darker container background */
   padding: 20px;
-  border-radius: 12px; /* Slightly rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow */
 }
 
 h1 {
   text-align: center;
-  font-size: 2.5rem; /* Larger heading size */
-  color: #555; /* Darker heading color */
-  margin-bottom: 20px; /* Add space below heading */
+  font-size: 2.5rem;
+  color: #ddd; /* Lighter heading color */
+  margin-bottom: 20px;
 }
 
 /* Egg Container Styling */
 .egg-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
-  gap: 20px; /* Increased gap between items */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
 
 .egg-box {
   padding: 20px;
-  background-color: #e0e0e0;
+  background-color: #555; /* Darker box background */
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow */
-  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Darker shadow */
+  transition: transform 0.3s ease-in-out;
 }
 
 .egg-box:hover {
-  transform: translateY(-5px); /* Lift on hover */
+  transform: translateY(-5px);
 }
 
 .egg-box h2 {
-  font-size: 1.8rem; /* Slightly larger heading size */
-  color: #444; /* Darker text color */
+  font-size: 1.8rem;
+  color: #ccc; /* Lighter text color */
   margin-top: 0;
 }
 
 .egg-box p {
-  font-size: 1.4rem; /* Slightly larger paragraph text */
-  color: #666; /* Darker text color */
+  font-size: 1.4rem;
+  color: #bbb; /* Lighter text color */
   margin-bottom: 0;
 }
